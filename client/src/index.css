@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* define color of the project */
+@theme {
+  --color-primary: #3078eb;
+  --color-secondary: #feaa00;
+  --color-primary-dark: #161b1c;
+  --color-secondary-dark: #515558;
+  --color-primary-light: #fff;
+  --color-instructor-bg: #222f3e;
+  --color-payment-bg: #3c6382;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-4xl font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-primary px-3 py-2 sm:px-6 sm:py-2.5 text-white text-xs sm:text-sm font-medium cursor-pointer transition-all hover:shadow-lg;
+  }
+}
