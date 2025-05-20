@@ -11,8 +11,8 @@ const fileUpload = require("express-fileupload");
 
 // Cors Policy
 const corsOption = {
-    origin: "http://localhost:5173",
-    // origin: "https://lms-client-1lme.onrender.com",
+    // origin: "http://localhost:5173",
+    origin: "https://lms-client-33e7.onrender.com",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
     allowedHeaders: ['Authorization', 'Content-Type'],
