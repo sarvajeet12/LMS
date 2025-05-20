@@ -8,11 +8,11 @@ import { useSelector } from "react-redux";
 // const RAZORPAY_KEY_ID = "rzp_test_hvnSUZERvfIugJ";
 const RAZORPAY_KEY_ID = import.meta.env.VITE_RAZORPAY_ID;
 
-const VERIFY_PAYMENT_API =
-  "http://localhost:5000/api/v1/purchase/verified-payment";
-
 // const VERIFY_PAYMENT_API =
-//   "https://lms-server-qw4r.onrender.com/api/v1/purchase/verified-payment";
+//   "http://localhost:5000/api/v1/purchase/verified-payment";
+
+const VERIFY_PAYMENT_API =
+  "https://lms-server-i8kl.onrender.com/api/v1/purchase/verified-payment";
 
 const PayButton = ({ purchased, courseId, creator }) => {
   const navigate = useNavigate();

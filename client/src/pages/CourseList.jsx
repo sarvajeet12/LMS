@@ -4,8 +4,8 @@ import Footer from "../components/common/Footer";
 import { crateCourseCategory } from "../data/popular-courses";
 import { Link } from "react-router-dom";
 import axios from "axios";
-const SEARCH_API = "http://localhost:5000/api/v1/course/search";
-// const SEARCH_API = "https://lms-server-qw4r.onrender.com/api/v1/course/search";
+// const SEARCH_API = "http://localhost:5000/api/v1/course/search";
+const SEARCH_API = "https://lms-server-i8kl.onrender.com/api/v1/course/search";
 
 const CourseList = () => {
   const [courses, setCourses] = useState([]);

@@ -8,8 +8,8 @@ import {
   useGetLectureByIdQuery,
 } from "../../../features/apis/courseApi";
 
-const MEDIA_API = "http://localhost:5000/api/v1/media";
-// const MEDIA_API = "https://lms-server-qw4r.onrender.com/api/v1/media";
+// const MEDIA_API = "http://localhost:5000/api/v1/media";
+const MEDIA_API = "https://lms-server-i8kl.onrender.com/api/v1/media";
 
 const EditLectureForm = () => {
   const {instructorId} = useParams();

@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const COURSE_PROGRESS_API = "http://localhost:5000/api/v1/progress/"
-// const COURSE_PROGRESS_API = "https://lms-server-qw4r.onrender.com/api/v1/progress/"
+// const COURSE_PROGRESS_API = "http://localhost:5000/api/v1/progress/"
+const COURSE_PROGRESS_API = "https://lms-server-i8kl.onrender.com/api/v1/progress/"
 
 export const courseProgressApi = createApi({
 
