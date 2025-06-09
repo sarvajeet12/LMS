@@ -1,5 +1,5 @@
 import React from "react";
-import { instructorData } from "../../../data/instructors-data";
+// import { instructorData } from "../../../data/instructors-data";
 import { Link } from "react-router-dom";
 import { InstructorSkeleton } from "../../common/Loading/Skeleton";
 import { useGetAllInstructorsQuery } from "../../../features/apis/authApi";
