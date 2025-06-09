@@ -12,12 +12,12 @@ const InstructorList = ({ searchTerm }) => {
 
   // Filtering instructors based on user input
   const filteredInstructors = instructorData?.response?.filter((instructor) =>
-    instructor?.additionalDetails?.firstName &&
-    instructor?.additionalDetails?.firstName
-      .toLowerCase()
+    
+    instructor?.additionalDetails?.firstName?.
+      toLowerCase()
       .includes(searchTerm.toLowerCase())
   );
-  console.log("instructorData", filteredInstructors);
+  // console.log("instructorData", filteredInstructors);
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 my-20">
