@@ -239,12 +239,6 @@ VITE_RAZORPAY_ID=your_razorpay_key_id
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your UI here for extra appeal!
-
----
-
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
