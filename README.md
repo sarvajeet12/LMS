@@ -16,7 +16,7 @@ A **full-stack Learning Management System** built with the MERN stack (MongoDB, 
 - **Payment Integration:** Razorpay integration for course purchases.
 - **Reviews & Ratings:** Students can review and rate courses.
 - **Responsive UI:** Modern, mobile-friendly interface.
-- **Admin Panel:** Manage users, courses, and platform analytics.
+- **Admin Panel:** Manage users, courses, and platform analytics.d
 
 ---
 
