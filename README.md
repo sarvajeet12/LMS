@@ -9,7 +9,7 @@ A **full-stack Learning Management System** built with the MERN stack (MongoDB, 
 ## 🚀 Features
 
 - **User Authentication:** Secure login/signup with OTP verification.
-- **Role-based Access:** Student, Instructor,an Admin dashboards.
+- **Role-based Access:** Student, Instructor, an Admin dashboards.
 - **Course Management:** Instructors can create, edit, publish, and manage courses and lectures.
 - **Lecture Video Upload:** Upload and stream lecture videos.
 - **Progress Tracking:** Students can track their course and lecture completion.
