@@ -1,4 +1,4 @@
-# 📚 MERN LMS (Learning Management System)
+# 📚 MERN LMS (Learning Management Syste)
 
 A **full-stack Learning Management System** built with the MERN stack (MongoDB, Express, React, Node.js). This platform enables students to enroll in courses, track progress, and interact with instructors, while instructors can create and manage courses, lectures, and student engagement.
 
