@@ -6,7 +6,7 @@ A **full-stack Learning Management System** built with the MERN stack (MongoDB, 
 ## 🌐 Deployment : https://lms-client-33e7.onrender.com
 ---
 
-## 🚀 Feature
+## 🚀 Features
 
 - **User Authentication:** Secure login/signup with OTP verification.
 - **Role-based Access:** Student, Instructor, an Admin dashboards.
